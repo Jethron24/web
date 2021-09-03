@@ -1,0 +1,69 @@
+section p{ color: blueviolet
+     ;font-family: Arial, Helvetica, sans-serif;line-height: 1.6;text-align: center; font-family: 'Raleway', sans-serif;
+}
+header { color:white ; background-color: rgb(35, 101, 224);}
+header image .logo { font-size: 200%;}
+
+nav ul li { color: darkgrey;font-style: italic; list-style-type: none;}
+
+
+h2{ color: gray;}
+
+h1{ color:blue; text-align: center;}
+
+input, textarea {
+     width: 100%;
+ }
+ form { width: 450px;
+       color: blueviolet;}
+
+section table caption{ font-weight: bold;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ; text-decoration:none;}     
+
+header { font-size: 200%;}
+
+section input { width: 450px; text-align: center;
+}
+.prod{ text-align: center;}
+
+section table { margin: auto;}
+
+section { text-align: center;background-color: rgb(156, 44, 156);}
+form{ text-align: center;margin: auto}
+footer { text-align: center; background-color: blueviolet;color: white; line-height: 1.0;}
+body {font-family: 'Raleway', sans-serif;
+}
+head{ padding: 0px;margin: 0px;}
+ul{ list-style-type: none; overflow: hidden;background-color: rgb(206, 200, 206);}
+li{  text-align: center;display: inline-block;position: relative;}
+li a{display: inline-block;padding: 20px;}
+ul ul{position: absolute;display: none;}
+ul ul li {display: block;}
+nav ul li :hover ul{ display: block;}
+section article{ display: flex;flex-direction: column; flex-wrap: none; justify-content: center;height: 300px; background-color: turquoise; align-content: center;margin: 10px;}
+section article{display: grid;grid-template-columns: 300px 100px;align-items: center;}
+.grilla{ display: grid; grid-template-areas:  "menu menu" "navegacion navegacion" "bloque contenedor" "pie pie"; grid-template-columns: 70% 30%; grid-template-rows: none
+}
+.principal{grid-area: menu;
+}
+
+.navegacion{ grid-area: navegacion;
+}
+
+.bloque{ grid-area: bloque; 
+}
+.contenedor{ grid-area: contenedor;
+}
+.pie{ grid-area: pie;
+}
+.gtx{ width: 200px;
+height: 200px;
+background-color: cadetblue;transform: skewY(25deg);}
+.ram{ width: 200px;height: 200px;background-color: cadetblue;transform: skewY(25deg)
+}
+.ofertas { animation-name: mianimacion;animation-duration: 2s;
+     animation-iteration-count: infinite;}
+@keyframes mianimacion{0% { opacity: 0;}
+100% {opacity: 1;}
+
+}
