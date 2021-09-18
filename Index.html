@@ -1,84 +1,52 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>neotec</title>
-    <link rel="stylesheet" href="style.css">
+    <title>laptops</title>
+    <link rel="stylesheet" href="./css/destino.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 </head>
 <body>
-      <div class="grilla">
-     <header class="principal">
-        <img src="Logo" alt="Neotec">
-     </header>
-     <nav class="navegacion"> 
-        <ul class="nav">
-            <li><a href="./Pages/laptops.html" class="activo">Laptops</a></li>
-            <li><a href="./Pages/Computadoras.html">Computadoras</a></li>
-            <li><a href="./Pages/ZonaGamer.html" >Zona Gamer</a>
-                <ul>
-                    <li><a href="#">Videojuegos</a></li>
-                    <li><a href="#">Consolas</a></li>
-                    <li><a href="#">Mandos</a></li>
-                 </ul>
-            </li>
-            <li><a href="./Pages/Partes.html" >Partes de PC</a>
-                <ul>
-                    <li><a href="#">Tarjetas Graficas</a></li>
-                    <li><a href="#">Procesadores</a></li>
-                    <li><a href="#">Placa Madre</a></li>
-                </ul>
-            </li>
-            
-        </ul>
-     </nav>
-     <section class="bloque">
-        <input class="buscador" type="search" name="Buscar productos" placeholder="Buscar productos">
-        <table cellspacin="10" celládding="10" border="1" >
-         <caption class="Producto">Producto</caption>
-         <tr>
-             <th>GTX1650</th>
-         </tr>
-         <tr>
-            <th>es un modelo asequible y que cumple las expectativas de cualquiera que quiera jugar en PC por poco dinero.</th>
-         </tr>
-        </table>
-        
-        <h1 class="ofertas">Ofertas</h1>
-        <article class="prod">
-            <img src="./imagenes/gtx1650.png"  alt="producto 1" class="gtx">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, obcaecati.r</p>
-        </article>
-        <article class="prod">
-            <img src="./imagenes/ram.png" alt="producto 2" class="ram">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, molestias.</p>
-        </article>
-     </section>
-     <form class="contenedor">
-        <h2>contactanos</h2>
-        <input type="text" name="Nombre" placeholder="Nombre">
-        <input type="text" name="Email" placeholder="Email">
-        <input type="text" name="Mensaje" placeholder="Mensaje">
-        <select name="sexo">
-            <option value="Hombre">Hombre</option>
-            <option value="Mujer">Mujer</option>
-        </select>
-        <input type="submit" value="enviar formulario">
-        <input type="reset" value="limpiar formulario">
-        <hr>
-         <h3>Checkbox</h3>
-         <input type="checkbox" name="info" id="info">
-         <label for="info">Mandeme información</label>
-     </form>
-    <footer class="pie">
-     <p>Instagram: @neotec</p>
-     <p>Facebook: @neotec</p>
-     <p>Twitter: @neotec</p>
+    <div class="header_nav">
+        <div class="contenedor">
+           <h1>Neotec</h1>
+           <nav class="nav">
+               <a href="D:\desarrollo web\mi_repositorio\Pages\Computadoras.html">COMPUTADORAS</a>
+               <a href="D:\desarrollo web\mi_repositorio\Pages\laptops.html">LAPTOPS</a>
+               <a href="D:\desarrollo web\mi_repositorio\Pages\ZonaGamer.html">ZONA GAMER</a>
+               <a href="D:\desarrollo web\mi_repositorio\Pages\Partes.html">PARTES DE PC</a>
+           </nav>
+        </div>
+    </div>
+    <div class="banner_img">
+        <img src="D:\desarrollo web\mi_repositorio\imagenes\banner 3_page-0001.jpg" alt="" class="imagen">
+    </div>
+    <section class="buscar">
+        <form autocomplete="off">
+            <div>
+                <input type="text" name="q" placeholder="Buscar">
+            </div>
+        </form>
+    </section>
+    <h1 class="oferta">OFERTAS</h1>
+    <section class="box">
+      <article>
+         <img src="D:\desarrollo web\mi_repositorio\imagenes\laptop.jpg" alt="" class="laptop">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, quae dolore.</p>
+      </article>
+      <article>
+         <img src="D:\desarrollo web\mi_repositorio\imagenes\gtx1650.png" alt="" class="gtx">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, quae dolore.</p>
+      </article>
+    </section>
+    <footer>
+        <p>Instagram: @neotec</p>
+        <p>Facebook: @neotec</p>
+        <p>Twitter: @neotec</p>
     </footer>
- </div>
 </body>
 </html>

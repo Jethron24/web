@@ -1,0 +1,56 @@
+@mixin sizes($width,$height){
+    height: $height;
+    width: $width;
+}
+.gtx {
+    @include sizes(300px,300px )
+}
+.laptop{
+    @include sizes(300px,300px)
+}
+@media screen and (max-width:800px){
+    .contenedor{
+        width: 100%;
+    }
+    .imagen{
+        width: 100%;
+    }
+
+}
+@import "header";
+@import "buscar";
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+    body{font-family: 'Raleway', sans-serif;}
+    .contenedor{width: 90%;
+        max-width: 1200px;
+        margin: auto;}
+    .oferta { 
+        text-align: center;
+        color: #484749;
+
+    }
+    section article { display: flex;
+        flex-direction: column;
+        flex-wrap: none;
+        justify-content: center;
+        height: 300px;
+        align-content: center;
+        margin: 10px;
+    }
+    section article{ display: grid;
+        grid-template-columns: 300px 100px;
+        align-items: center;
+        padding: 10px;}
+    .laptop {
+    text-align: center;
+    }
+    .gtx {
+        text-align: center;
+    }
+    footer { 
+        text-align: center;
+        background-color: gray;
+        color:white
+    }
